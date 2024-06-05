@@ -1,0 +1,62 @@
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary " >
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto fw-bold fs-3 px-5 " href="#!index"><i
+          class="fa-solid fa-location-dot text-success"></i> <span class="text-success">T</span>ravel</a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-location-dot"></i> Travel</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center fw-bold flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" aria-current="page" href="#!index">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Hỗ trợ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#!lienhe">Liên Hệ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#!danhmuc">Danh mục</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <div class="modal-title fs-5" id="exampleModalToggleLabel">
+                <h3><i class="fa-solid fa-location-dot text-success"></i> Klook</h3>
+              </div>
+              <button type="button " class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+              <!-- Modal body 1 -->
+              <h3 class="text-center fw-bold">Đăng nhập/Đăng ký</h3>
+
+            </div>
+            <div class="modal-footer border-0">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="btn border rounded-4 px-4 me-lg-5 me-sm-3 py-1 text-decoration-none fw-bold text-white bg-success"
+        data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</button>
+      <!-- Modal -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+</nav>

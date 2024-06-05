@@ -1,0 +1,187 @@
+{
+    "products":
+    [
+        {
+            "id": 1,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 2,
+            "name": "Tour Công Viên Bangkok Safari World với Xe Đưa Đón Chung/Riêng",
+            "price": 27.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/gkopobu6sxehrt8ewbv6.webp",
+            "category": "Tour Bangkok",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"200k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+            
+        },
+        {
+            "id": 3,
+            "name": "Tour Riêng Khám Phá Pattaya từ Bangkok hoặc Pattaya",
+            "price": 35.6,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rq4noguj6uyx2ke2ta9a.webp",
+            "category": "Tour Pattaya",
+            "TopSale":"Bán chạy",
+            "review":"4.8",
+            "booked":"100k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 4,
+            "name": " Thuê Xe Có Tài Xế Riêng giữa Bangkok và Pattaya, Ayutthaya, Hua Hin và Khu Vực Khác của TTD",
+            "price": 12.56,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/ojm2gbdwserjuao5wrcy.webp",
+            "category": "Thuê tài xe có xe riêng Bangkok",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"100k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 5,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 6,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 7,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 8,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 9,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 10,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id":11,
+            "name": "Vé Safari World Bangkok",
+            "price": 45.29,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp",
+            "category": "Sở thú & Thủy cung",
+            "TopSale":"Bán chạy",
+            "review":"4.6",
+            "booked":"500k",
+            "main category":"Ngoài nước",
+            "HotActivity": 1
+        },
+        {
+            "id": 12,
+            "name": " Vé Thuỷ Cung SEA LIFE Bangkok Ocean World",
+            "price": 500,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/g6gwxp3zbdpkb0gpfo04.webp",
+            "category": "miền Bắc",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"100k",
+            "main category":"Trong nước",
+            "HotActivity": 2
+        },
+        {
+            "id": 13,
+            "name": " Tour Ngày Cổ Điển: Chợ Đường Sắt Maeklong và Chợ Nổi Damnoen Saduak",
+            "price": 600,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/o0xxtaqfge3agdbfd7cn.webp",
+            "category": "miền Bắc",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"100k",
+            "main category":"Trong nước",
+            "HotActivity": 2
+        },
+        {
+            "id": 14,
+            "name": " Trải Nghiệm Ăn Tối Trên Du Thuyền Royal Princess tại Bangkok",
+            "price": 700,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/ynvoxpdxv2gzpqokqovg.webp",
+            "category": "miền Bắc",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"100k",
+            "main category":"Trong nước",
+            "HotActivity": 2
+        },
+        {
+            "id": 15,
+            "name": " Tour Ngày Khu Di Tích Địa Đạo Củ Chi Đồng Bằng Sông Cửu Long từ TP. Hồ Chí Minh ",
+            "price": 800,
+            "image": "https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/yf9jzfbou3qoijdqfcpm.webp",
+            "category": "miền Nam",
+            "TopSale":"Bán chạy",
+            "review":"4.7",
+            "booked":"100k",
+            "main category":"Trong nước",
+            "HotActivity": 2
+        } 
+    ]
+}
+    

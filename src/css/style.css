@@ -1,0 +1,23 @@
+.c-item{
+    height: 650px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card{
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.nav-link:hover{
+    color:#ff5b00 !important
+}
+.button-select-services:hover{
+    background-color: #fcf6f2;
+}

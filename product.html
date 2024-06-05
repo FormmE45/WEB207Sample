@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="src/css/lienhe.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="col-12 ">
+        <!-- Nav 2 -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+          <div class="container-fluid">
+            <a class="navbar-brand me-auto fw-bold fs-3 px-5 " href="index.html"><i
+                class="fa-solid fa-location-dot text-success"></i> <span class="text-success">T</span>ravel</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-location-dot"></i> Travel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center fw-bold flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#">Hỗ trợ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="lienhe.html">Liên Hệ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="danhmuc.html">Danh mục</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <div class="modal-title fs-5" id="exampleModalToggleLabel">
+                      <h3><i class="fa-solid fa-location-dot text-success"></i> Klook</h3>
+                    </div>
+                    <button type="button " class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+                    <!-- Modal body 1 -->
+                  <h3 class="text-center fw-bold">Đăng nhập/Đăng ký</h3>
+                  
+                  </div>
+                  <div class="modal-footer border-0">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn border rounded-4 px-4 me-lg-5 me-sm-3 py-1 text-decoration-none fw-bold text-white bg-success"
+              data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</button>
+            <!-- Modal -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+    
+        </nav>
+        <!-- Nav-2 -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid col-10">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="content m-auto col-11">
+        <div class="pointer d-flex ">
+            <a href="#">Travel</a>
+          </div>
+          <div class="product-name">
+            <h2>Vé Safari World Bangkok</h2>
+          </div>
+          <div class="score-location d-flex justify-content-between ">
+            <div class="d-flex">
+              <span> 4.6 (13K + Đánh giá)</span>
+              <div class="location"><i class="fa-solid fa-location-dot text-secondary"></i> 99 Panyaintra Road (Soi Ramindra
+                109), Samwatawantok, Bangkok 10510, Thailand</div>
+            </div>
+            
+            <div class="like"><a class="link-underline link-underline-opacity-0 link-primary link-hover" href="#"><i
+                  class="fa-regular fa-heart"></i> Yêu thích</a></div>
+          </div>
+          <div class="product-img d-flex ">
+            <div class="main-img col-9" > <img class="img-fluid" 
+                src="https://res.klook.com/image/upload/u_activities:rl1lyvcr1o8s7jj0tws9,h_1.0,ar_960:460,c_scale,e_blur:10000/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                alt="">
+            </div>
+            <div class="side-img col-3 d-flex flex-wrap" ><img class="img-fluid" 
+                src="https://res.klook.com/image/upload/u_activities:zyosmhgdbu35q1qo6axw,h_1.0,ar_16:9,c_scale,e_blur:10000/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/zyosmhgdbu35q1qo6axw.webp"
+                alt="">
+              <img class="img-fluid"
+                src="https://res.klook.com/image/upload/u_activities:l2fqkl6m7yx1od0bpnh7,h_1.0,ar_16:9,c_scale,e_blur:10000/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/l2fqkl6m7yx1od0bpnh7.webp"
+                alt="">
+            </div>
+          </div>
+        <div class="noti fs-5 my-4"><i class="fa-solid fa-bullhorn"></i> Safari Park và Marine Park sẽ mở cửa vào ngày
+            6/5/2024</div>
+        <div class="card  col-lg-8 col-md-11 col-sm-11">
+            <div class="card-body fs-5" style="background-color: #fcf6f2;">
+                <ul>
+                    <li>Dành một ngày khám phá Safari World Bangkok với 2 khu công viên: Safari Park - vườn thú mở, và
+                        Marine Park - công viên hải dương</li>
+                    <li>Thưởng thức chương trình biểu diễn động vật với lịch trình được cung cấp trong Marine Park</li>
+                </ul>
+                <button type="button" class="btn fw-bold text-underline" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"> Xem thêm ></button>
+                <div class="modal fade rounded" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Điểm nổi bật</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body " style="font-size: 20px;">
+                                <ul>
+                                    <li>Dành một ngày khám phá Safari World Bangkok với 2 khu công viên: Safari Park -
+                                        vườn thú mở, và Marine Park - công viên hải dương</li>
+                                    <li>Thưởng thức chương trình biểu diễn động vật với lịch trình được cung cấp trong
+                                        Marine Park</li>
+                                    <li>Đi sâu vào vương quốc động vật của công viên Safari, nơi hươu cao cổ, ngựa vằn,
+                                        hổ và sư tử cư trú</li>
+                                    <li>Bước vào thế giới miền viễn tây hoang dã, với các màn trình diễn mạo hiểm được
+                                        thể hiện bởi những diễn viên cao bồi chuyên nghiệp</li>
+                                    <li>Đừng bỏ lỡ 7 chương trình đặc sắc trong ngày</li>
+                                    <li>Thoải mái lựa chọn gói dịch vụ phù hợp để thưởng thức buffet trưa ngon miệng
+                                    </li>
+                                    <li>Thêm phần thú vị với dịch vụ bổ sung độc quyền của Klook bao gồm xe tham quan
+                                        Safari và chuyến đi thuyền trên sông Safari.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <h4 class="my-4">Các gói dịch vụ</h4>
+        <div class="card p-3 col-lg-8 col-md-11 col-sm-11" style="background-color: #f5f5f5;">
+            <div class="card-body " >
+                <h4>Vui lòng chọn ngày và gói dịch vụ</h4>
+                <p class="services-header">Vui lòng chọn ngày tham quan </p>
+                <button class="button-select-date-services border-0 rounded-4 fw-bold px-3 py-2"
+                    style="color: white; background-color: #ff5b00;">
+                    <i class="fa-regular fa-calendar"></i> Xem trạng thái dịch vụ
+                </button>
+                <p class="services-header">Vui lòng chọn ngày tham quan </p>
+                <div class="service-buttons-group d-flex flex-wrap">
+                    <button class="button-select-services rounded-3 m-3 px-3 py-2">
+                        Vé 1 Ngày (Safari Park + Marine Park)
+                    </button>
+                    <button class="button-select-services  rounded-3  m-3  px-3 py-2">
+                        Safari Park
+                    </button>
+                    <button class="button-select-services rounded-3  m-3 px-3 py-2">
+                        Marine Park
+                    </button>
+                </div>
+                <p class="services-header">Vui lòng chọn ngày tham quan </p>
+                <div class="service-buttons-group d-flex flex-wrap">
+                    <button class="button-select-services rounded-3 m-3 px-3 py-2">
+                        Buffet Quốc Tế
+                    </button>
+                    <button class="button-select-services  rounded-3  m-3  px-3 py-2">
+                        Buffet Món Ấn Độ
+                    </button>
+                    <button class="button-select-services rounded-3  m-3 px-3 py-2">
+                       Không chọn Buffet trưa
+                    </button>
+                </div>
+                <p class="services-header">Vui lòng chọn ngày tham quan </p>
+                <div class="service-buttons-group d-flex flex-wrap">
+                    <button class="button-select-services rounded-3 m-3 px-3 py-2">
+                        Vé 1 Ngày (Safari Park + Marine Park)
+                    </button>
+                    <button class="button-select-services  rounded-3  m-3  px-3 py-2">
+                        Safari Park
+                    </button>
+                    <button class="button-select-services rounded-3  m-3 px-3 py-2">
+                        Marine Park
+                    </button>
+                </div>
+                <p class="services-header">Vui lòng chọn ngày tham quan </p>
+                <div class="service-buttons-group d-flex flex-wrap">
+                    <button class="button-select-services rounded-3 m-3 px-3 py-2">
+                        Vé 1 Ngày (Safari Park + Marine Park)
+                    </button>
+                    <button class="button-select-services  rounded-3  m-3  px-3 py-2">
+                        Safari Park
+                    </button>
+                    <button class="button-select-services rounded-3  m-3 px-3 py-2">
+                        Marine Park
+                    </button>
+                </div>
+                
+
+            </div>
+        </div>
+        <h4 class="my-4">Đánh giá gần đây</h4>
+        <div class="rewview d-flex flex-wrap col-lg-8 col-md-11 col-sm-11">
+            <h1 class="text-warning fw-bold">4.6<sub style="opacity: 0.5; color:black">/5</sub></h1>
+            <div class="star"><i class="fa-solid fa-star fa-2xl" style="color: #f09b0a;"></i><i class="fa-solid fa-star fa-2xl" style="color: #f09b0a;"></i><i class="fa-solid fa-star fa-2xl" style="color: #f09b0a;"></i><i class="fa-solid fa-star fa-2xl" style="color: #f09b0a;"></i><i class="fa-solid fa-star-half-stroke fa-2xl" style="color: #f09b0a;"></i></div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card-wrapper d-flex">
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-wrapper d-flex">
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-wrapper d-flex">
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                        <div class="card col-lg-6 col-sm-12">
+                            <div class="card-header"><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i><i class="fa-solid fa-star " style="color: #f09b0a;"></i> Klook User</div>
+                            <div class="card-body">
+                                Hoàn toàn đáng để ghé thăm và là một trong những chuyến đi săn thú vị nhất mà tôi từng có. Tốt nhất nên mua vé từ Klook để tránh phải xếp hàng dài.
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+        
+    </div>
+    
+    <div class="col-12 mt-4 row">
+        <div class="col-lg-2 ps-5 mx-auto">
+          <p class="fs-5 fw-bold">VỀ KLOOK</p>
+          <p><a class="text-decoration-none text-dark" href="#">Về chúng tôi</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Travel Blog</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Cơ hội nghề nghiệp</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Phiếu quà tặng Travel</a></p>
+        </div>
+        <div class="col-lg-2 ps-5 mx-auto">
+          <p class="fs-5 fw-bold">ĐỐI TÁC</p>
+          <p><a class="text-decoration-none text-dark" href="#">Đăng ký nhà cung cấp</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Đối tác đăng nhập</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Đối tác liên kết</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Chương trình cho người nổi tiếng</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Chương trình cho đại lý</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Hợp tác marketing & phân phối</a></p>
+        </div>
+        <div class="col-lg-2 ps-5 mx-auto ">
+          <p class="fs-5 fw-bold">ĐIỀU KHOẢN SỬ DỤNG</p>
+          <p><a class="text-decoration-none text-dark" href="#">Điều khoản sử dụng</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Chính sách bảo mật của Travel</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Chính sách Cookies</a></p>
+          <p><a class="text-decoration-none text-dark" href="#">Chương trình phát hiện lỗi phần mềm</a></p>
+        </div>
+        <div class="col-lg-4 ps-4 mx-auto">
+          <p class="fs-5 fw-bold">KÊNH THANH TOÁN</p>
+          <ul style="list-style: none;" class=" d-flex">
+            <li><img src="https://res.klook.com/image/upload/v1646105893/btntfn8avhh5lmzftvvt.png" style="width: 50px;"
+                alt=""></li>
+            <li><img src="https://res.klook.com/image/upload/v1646105893/izie51h8cglw7tp4xtcm.png" style="width: 50px;"
+                alt=""></li>
+            <li><img src="https://res.klook.com/image/upload/v1658112471/iwqwazkvhyphqr7y71cf.png" style="width: 50px;"
+                alt=""></li>
+            <li><img src="https://res.klook.com/image/upload/v1646105893/o2a7mqjltfeldbfffmn9.png" style="width: 50px;"
+                alt=""></li>
+            <li><img src="https://res.klook.com/image/upload/v1646105893/oz0s9miltrjsgjc271wo.png" style="width: 50px;"
+                alt=""></li>
+            <li><img src="https://res.klook.com/image/upload/v1646105893/f08rx4qptjfrt5bqpkqu.png" style="width: 50px;"
+                alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="card">
+          <div class="card-body text-center">
+            <p>FPT Polytechnic &copy; 2017. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

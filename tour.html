@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="col-12 ">
+        <!-- Nav 2 -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto fw-bold fs-3 px-5 " href="index.html"><i
+                        class="fa-solid fa-location-dot text-success"></i> <span class="text-success">T</span>ravel</a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-location-dot"></i>
+                            Travel</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center fw-bold flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Hỗ trợ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#">Liên Hệ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="danhmuc.html">Danh mục</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <div class="modal-title fs-5" id="exampleModalToggleLabel">
+                                    <h3><i class="fa-solid fa-location-dot text-success"></i> Klook</h3>
+                                </div>
+                                <button type="button " class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <!-- Modal body 1 -->
+                                <h3 class="text-center fw-bold">Đăng nhập/Đăng ký</h3>
+                                
+                            </div>
+                            <div class="modal-footer border-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="btn border rounded-4 px-4 me-lg-5 me-sm-3 py-1 text-decoration-none fw-bold text-white bg-success"
+                    data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</button>
+                <!-- Modal -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Body -->
+    <div class="title fw-bold my-4 col-lg-10 m-auto col-sm-12">
+        <h2>Các hoạt động nổi bật </h2>
+    </div>
+    <nav class=" my-4 col-lg-10 m-auto col-sm-12">
+        <div class="nav nav-underline" id="nav-tab" role="tablist">
+            <button class="nav-link active fw-bold text-dark" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">TOUR TRONG NƯỚC</button>
+            <button class="nav-link fw-bold text-dark" id="nav-tour-tab" data-bs-toggle="tab" data-bs-target="#nav-tour" type="button"
+                role="tab" aria-controls="nav-tour" aria-selected="true">TOUR NGOÀI NƯỚC</button>
+            <a class="ms-auto nav-link fw-bold text-secondary" href="danhmuc.html">Tổng hợp <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active p-3" id="nav-all">
+                <div class=" m-auto d-flex flex-wrap">
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/c_fill,w_420,h_260/activities/lvnxfcz989rlat8jndf0.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Cáp Treo Sun World Ba Na Hills Đà Nẵng</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Xác nhận tức thời</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            700K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/c_fill,w_420,h_260/activities/mqc6kjhyldygx9oqtjw9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/c_fill,w_420,h_260/activities/sirwd9qmevlefg7p0t36.webp    "
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/c_fill,w_420,h_260/activities/otv8vrjkqxriwlvbld8o.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab-pane fade show active p-3" id="nav-tour">
+                <div class=" m-auto d-flex flex-wrap">
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_540,h_360,c_fill,q_85/activities/gkopobu6sxehrt8ewbv6.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_540,h_360,c_fill,q_85/activities/kpdwabjqgzvlq0xxxta0.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_540,h_360,c_fill,q_85/activities/ynvoxpdxv2gzpqokqovg.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_540,h_360,c_fill,q_85/activities/au9l1xfuioau6sgtftln.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <div class="card ">
+                            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_500,h_334,c_fill,q_85/activities/rl1lyvcr1o8s7jj0tws9.webp"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="text-dark">Sở thú & Thủy cung
+                                </div>
+                                <div>
+                                    <h5>Vé Safari World Bangkok</h5>
+                                    <div class="d-flex ">
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Bán chạy</p>
+                                        <p class="ms-1 text-body-tertiary bg-light px-1">Hoàn tiền dễ dàng</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <p class="text-warning"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            4.6
+                                        </p>
+                                        <p>(17,364)<i class="fa-solid fa-circle fa-2xs" style="color: #3e3f41;"></i>
+                                            500K+
+                                            Đã được đặt
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Body Footer -->
+    <div class="col-12 mt-4 row">
+        <div class="col-lg-2 ps-5 mx-auto">
+            <p class="fs-5 fw-bold">VỀ KLOOK</p>
+            <p><a class="text-decoration-none text-dark" href="#">Về chúng tôi</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Travel Blog</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Cơ hội nghề nghiệp</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Phiếu quà tặng Travel</a></p>
+        </div>
+        <div class="col-lg-2 ps-5 mx-auto">
+            <p class="fs-5 fw-bold">ĐỐI TÁC</p>
+            <p><a class="text-decoration-none text-dark" href="#">Đăng ký nhà cung cấp</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Đối tác đăng nhập</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Đối tác liên kết</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Chương trình cho người nổi tiếng</a>
+            </p>
+            <p><a class="text-decoration-none text-dark" href="#">Chương trình cho đại lý</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Hợp tác marketing & phân phối</a></p>
+        </div>
+        <div class="col-lg-2 ps-5 mx-auto ">
+            <p class="fs-5 fw-bold">ĐIỀU KHOẢN SỬ DỤNG</p>
+            <p><a class="text-decoration-none text-dark" href="#">Điều khoản sử dụng</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Chính sách bảo mật của Travel</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Chính sách Cookies</a></p>
+            <p><a class="text-decoration-none text-dark" href="#">Chương trình phát hiện lỗi phần
+                    mềm</a>
+            </p>
+        </div>
+        <div class="col-lg-4 ps-4 mx-auto">
+            <p class="fs-5 fw-bold">KÊNH THANH TOÁN</p>
+            <ul style="list-style: none;" class=" d-flex">
+                <li><img src="https://res.klook.com/image/upload/v1646105893/btntfn8avhh5lmzftvvt.png"
+                        style="width: 50px;" alt=""></li>
+                <li><img src="https://res.klook.com/image/upload/v1646105893/izie51h8cglw7tp4xtcm.png"
+                        style="width: 50px;" alt=""></li>
+                <li><img src="https://res.klook.com/image/upload/v1658112471/iwqwazkvhyphqr7y71cf.png"
+                        style="width: 50px;" alt=""></li>
+                <li><img src="https://res.klook.com/image/upload/v1646105893/o2a7mqjltfeldbfffmn9.png"
+                        style="width: 50px;" alt=""></li>
+                <li><img src="https://res.klook.com/image/upload/v1646105893/oz0s9miltrjsgjc271wo.png"
+                        style="width: 50px;" alt=""></li>
+                <li><img src="https://res.klook.com/image/upload/v1646105893/f08rx4qptjfrt5bqpkqu.png"
+                        style="width: 50px;" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="card">
+            <div class="card-body text-center">
+                <p>FPT Polytechnic &copy; 2017. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
